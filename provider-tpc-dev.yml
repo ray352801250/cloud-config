@@ -1,12 +1,6 @@
-server:
-  port: 8084
 spring:
-  application:
-    name: provider-tpc
   datasource:
     url: jdbc:mysql://127.0.0.1:3306/wxrrd?useUnicode=true&characterEncoding=utf-8&useSSL=false
-    username: root
-    password: root
     driver-class-name: com.mysql.jdbc.Driver
     type: com.alibaba.druid.pool.DruidDataSource
 #    连接池相关设置
@@ -50,3 +44,5 @@ mybatis:
 logging:
   level:
     com.dodoca.provider.tpc.mapper: debug
+env:
+  dev
