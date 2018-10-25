@@ -50,3 +50,5 @@ mybatis:
 logging:
   level:
     com.dodoca.provider.uac.mapper: debug
+env:
+  pro
