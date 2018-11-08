@@ -13,15 +13,15 @@ zuul:
 #    - /**/provider/**
 #  配置需要zuul反向代理的服务
   routes:
-    aaa:
-      path: /mdc/**
-      serviceId: provider-mdc
+#     aaa:
+#       path: /mdc/**
+#       serviceId: provider-mdc
 #      zuul默认不会将请求的cookie信息传递到后端服务,添加此配置可以讲cookie传递给后端
 #      sensitiveHeaders:
-#    provider-mdc: /mdc/**
-#    provider-omc: /omc/**
-#    provider-tpc: /tpc/**
-#    provider-uac: /uac/**
+   provider-mdc: /mdc/**
+   provider-omc: /omc/**
+   provider-tpc: /tpc/**
+   provider-uac: /uac/**
 management:
   security:
     enabled: false
