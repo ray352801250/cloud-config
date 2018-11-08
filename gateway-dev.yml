@@ -8,6 +8,8 @@ spring:
 zuul:
 #zuul默认反向代理eureka中注册的所有的服务,配置 ignored-services 排除不想代理的
   ignored-services: '*'
+#  设置全部服务都可以传递cookie
+  sensitive-headers:
 #  正则方法排除不需要代理的路由(排除路由中含有 provider 的路由)
 #  ignored-patterns:
 #    - /**/provider/**
