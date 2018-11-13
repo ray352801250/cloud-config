@@ -1,0 +1,7 @@
+server:
+  port: 9994
+spring:
+  application:
+    name: cloud-zipkin
+  profiles:
+    active: dev
