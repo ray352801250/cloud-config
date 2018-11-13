@@ -24,7 +24,6 @@ zuul:
    provider-omc: /omc/**
    provider-tpc: /tpc/**
    provider-uac: /uac/**
-   cloud-zipkin: /zipkin/**
 management:
   security:
     enabled: false
